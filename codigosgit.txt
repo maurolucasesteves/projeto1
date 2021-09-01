@@ -1,0 +1,78 @@
+Códigos usados no Git
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1
+$ git config --global user.name "Mauro Lucas Esteves"
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1
+$ git config --global user.email "maurolucasesteves@gmail.com"
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1
+$ git init
+Initialized empty Git repository in D:/FontEnd/Mauro/Projetos/projeto1/.git/
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git add index.txt
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.txt
+
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git commit -m "Criando o projeto página index"
+[master (root-commit) a98e908] Criando o projeto página index
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.txt
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git add index.txt
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git commit -m "Adicionado o link para o login"
+[master 7df8e55] Adicionado o link para o login
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$ git log
+commit 7df8e55158da0dec31749deece79bc6bd386928e (HEAD -> master)
+Author: Mauro Lucas Esteves <maurolucasesteves@gmail.com>
+Date:   Tue Aug 31 21:17:11 2021 -0300
+
+    Adicionado o link para o login
+
+commit a98e9083c23215bc933f045ed8936fa484cf20f8
+Author: Mauro Lucas Esteves <maurolucasesteves@gmail.com>
+Date:   Tue Aug 31 21:12:45 2021 -0300
+
+    Criando o projeto página index
+
+CT WEB FULL STACK@ESN914D1235038 MINGW64 /d/FontEnd/Mauro/Projetos/projeto1 (master)
+$
